@@ -8,6 +8,12 @@ Fast, local development for Kubernetes and OpenShift Microservices
 
 Telepresence is a Cloud Native Computing Foundation Sandbox project created by the team at Ambassador Labs
 
+## mirrord
+
+https://mirrord.dev/
+
+Run your local code in the real-time context of your cloud environment, with access to other microservices, databases, queues, and managed services, all without leaving the local setup you know and love.
+
 ## watchexec
 
 https://github.com/watchexec/watchexec
