@@ -14,6 +14,11 @@ https://mirrord.dev/
 
 Run your local code in the real-time context of your cloud environment, with access to other microservices, databases, queues, and managed services, all without leaving the local setup you know and love.
 
+Comparison with Telepresence: https://mirrord.dev/docs/faq/comparisons/#how-is-mirrord-different-from-telepresence
+
+Besides what is in that list, the fact that it can steal traffic from a container (and not the entire pod or service)
+means that it works with istio even if you enforce mTLS in the service mesh.
+
 ## watchexec
 
 https://github.com/watchexec/watchexec
