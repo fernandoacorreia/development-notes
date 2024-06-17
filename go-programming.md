@@ -37,3 +37,8 @@ Assertions library. A toolkit with common assertions and mocks that plays nicely
 https://github.com/vektra/mockery
 
 A mock code autogenerator for Go.
+
+## WaitGroup
+
+Examples:
+- https://github.com/dacamp/take-home-challenge/blob/c27cabc5e05cf45ebb23a8112adbb4916d0de92d/peer/client.go#L108
