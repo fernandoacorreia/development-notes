@@ -38,7 +38,20 @@ https://github.com/vektra/mockery
 
 A mock code autogenerator for Go.
 
-## WaitGroup
+## Concurrency
+
+### WaitGroup
 
 Examples:
 - https://github.com/dacamp/take-home-challenge/blob/c27cabc5e05cf45ebb23a8112adbb4916d0de92d/peer/client.go#L108
+
+### rheos
+
+[rheos](https://github.com/dmksnnk/rheos) is a small lightweight library with helpers to build asynchronous pipelines.
+It takes inspiration from [lo](https://github.com/samber/lo), but allows to do things concurrently.
+
+### rill
+
+https://github.com/destel/rill
+
+Go concurrency with channel transformations: a toolkit for streaming, batching, pipelines, and error handling.
