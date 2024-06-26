@@ -55,3 +55,8 @@ It takes inspiration from [lo](https://github.com/samber/lo), but allows to do t
 https://github.com/destel/rill
 
 Go concurrency with channel transformations: a toolkit for streaming, batching, pipelines, and error handling.
+
+### Channels
+
+- https://www.dolthub.com/blog/2024-06-21-channel-three-ways/
+- https://go.dev/blog/pipelines
