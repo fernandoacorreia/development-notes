@@ -60,3 +60,15 @@ Go concurrency with channel transformations: a toolkit for streaming, batching, 
 
 - https://www.dolthub.com/blog/2024-06-21-channel-three-ways/
 - https://go.dev/blog/pipelines
+
+## Performance
+
+### Flame graphs
+
+- https://tech.popdata.org/Flame-Graphs-Performance-Tuning-Made-Easy/
+- https://www.benburwell.com/posts/flame-graphs-for-go-with-pprof/
+- https://www.goodwith.tech/blog/go-pprof
+
+The `perf` tool has inbuilt flamegraph generation code these days (well leaning on D3.js).
+So `perf script report flamegraph` will convert a perf.data file into a flamegraph.html.
+Similarly there is `perf script report gecko` to write out the firefox profiler's json format.
