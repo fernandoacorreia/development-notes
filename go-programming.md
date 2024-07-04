@@ -61,6 +61,12 @@ Go concurrency with channel transformations: a toolkit for streaming, batching, 
 - https://www.dolthub.com/blog/2024-06-21-channel-three-ways/
 - https://go.dev/blog/pipelines
 
+### orDone pattern
+
+[video](https://www.youtube.com/watch?v=bnbEULxcX3o)
+
+[code](https://docs.google.com/document/d/1x1D1JZ7AXsA6tjZPMZPWIWKyeuob-xo32mYQBe8Qs8w/edit?usp=sharing)
+
 ## Performance
 
 ### Flame graphs
