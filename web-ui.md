@@ -6,3 +6,6 @@
 
 React Flow is a library for building node-based graphs, which can be anything from simple static diagrams to data visualizations, to complex visual editors.
 
+## Graph layout
+
+[dagre](https://github.com/dagrejs/dagre) - Graph layout for JavaScript.
