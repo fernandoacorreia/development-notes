@@ -14,3 +14,5 @@ Simple SQL finite state machine for Postgres
 
 https://github.com/michelp/pgfsm
 
+https://raphael.medaer.me/2019/06/12/pgfsm.html
+
