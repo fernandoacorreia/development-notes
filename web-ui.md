@@ -9,3 +9,14 @@ React Flow is a library for building node-based graphs, which can be anything fr
 ## Graph layout
 
 [dagre](https://github.com/dagrejs/dagre) - Graph layout for JavaScript.
+
+## Mermaid
+
+Diagramming and charting tool
+
+JavaScript based diagramming and charting tool that renders Markdown-inspired text definitions to create and modify diagrams dynamically.
+
+https://mermaid.js.org/
+
+https://github.com/mermaid-js/mermaid
+
