@@ -8,3 +8,9 @@ https://duckdb.org/
 
 Pandas replacement for OLAP.
 
+## pgfsm
+
+Simple SQL finite state machine for Postgres
+
+https://github.com/michelp/pgfsm
+
