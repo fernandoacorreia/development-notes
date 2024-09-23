@@ -20,3 +20,10 @@ https://mermaid.js.org/
 
 https://github.com/mermaid-js/mermaid
 
+## htmx
+
+### Live website updates with Go, SSE, and htmx
+
+https://threedots.tech/post/live-website-updates-go-sse-htmx/
+
+This post shows how to push live updates to your website using Go, Server-Sent Events (SSE), and htmx.
