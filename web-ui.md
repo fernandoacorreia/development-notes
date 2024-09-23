@@ -22,8 +22,26 @@ https://github.com/mermaid-js/mermaid
 
 ## htmx
 
+### htmx docs
+
+https://htmx.org/docs/
+
+htmx is a library that allows you to access modern browser features directly from HTML, rather than using javascript.
+
 ### Live website updates with Go, SSE, and htmx
 
 https://threedots.tech/post/live-website-updates-go-sse-htmx/
 
 This post shows how to push live updates to your website using Go, Server-Sent Events (SSE), and htmx.
+
+## Lit
+
+https://lit.dev/
+
+Building on top of the Web Components standards, Lit adds just what you need to be happy and productive: reactivity, declarative templates and a handful of thoughtful features to reduce boilerplate and make your job easier.
+
+## Alpine.js
+
+https://alpinejs.dev/
+
+Alpine is a rugged, minimal tool for composing behavior directly in your markup. Think of it like jQuery for the modern web.
