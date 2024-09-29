@@ -67,6 +67,19 @@ Go concurrency with channel transformations: a toolkit for streaming, batching, 
 
 [code](https://docs.google.com/document/d/1x1D1JZ7AXsA6tjZPMZPWIWKyeuob-xo32mYQBe8Qs8w/edit?usp=sharing)
 
+## Deployment
+
+### Deploying Go programs in containers
+
+If you run Go within containers, you should set GOMAXPROCS appropriately to avoid CPU throttling.
+
+- [CPU Throttling for containerized Go applications explained](https://kanishk.io/posts/cpu-throttling-in-containerized-go-apps/)
+- [automaxprocs](https://github.com/uber-go/automaxprocs): Automatically set GOMAXPROCS to match Linux container CPU quota.
+
+### Embedding files in a Go program
+
+[embed](https://pkg.go.dev/embed): provides access to files embedded in the running Go program.
+
 ## Performance
 
 ### Flame graphs
@@ -78,3 +91,9 @@ Go concurrency with channel transformations: a toolkit for streaming, batching, 
 The `perf` tool has inbuilt flamegraph generation code these days (well leaning on D3.js).
 So `perf script report flamegraph` will convert a perf.data file into a flamegraph.html.
 Similarly there is `perf script report gecko` to write out the firefox profiler's json format.
+
+### GC memory limit
+
+`GOMEMLIMIT`: see https://jvns.ca/blog/2024/09/27/some-go-web-dev-notes/
+
+[automemlimit](https://github.com/KimMachineGun/automemlimit): Automatically set GOMEMLIMIT to match Linux cgroups(7) memory limit.
