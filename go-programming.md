@@ -67,6 +67,12 @@ Go concurrency with channel transformations: a toolkit for streaming, batching, 
 
 [code](https://docs.google.com/document/d/1x1D1JZ7AXsA6tjZPMZPWIWKyeuob-xo32mYQBe8Qs8w/edit?usp=sharing)
 
+### Caching and thundering herd prevention
+
+- [pocache](https://github.com/naughtygopher/pocache) - cache with preemptive optimistic caching strategy.
+- [groupcache](https://github.com/golang/groupcache?tab=readme-ov-file#loading-process) - memcached replacement.
+- [singleflight](https://pkg.go.dev/golang.org/x/sync/singleflight) - duplicate function call suppression mechanism.
+
 ## Deployment
 
 ### Deploying Go programs in containers
