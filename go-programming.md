@@ -38,6 +38,15 @@ https://github.com/vektra/mockery
 
 A mock code autogenerator for Go.
 
+## Background jobs and task queues
+
+### River
+
+Fast and reliable background jobs in Go.
+Atomic, transaction-safe, robust job queueing for Go applications. Backed by PostgreSQL and built to scale.
+
+https://riverqueue.com/
+
 ## Concurrency
 
 ### WaitGroup
