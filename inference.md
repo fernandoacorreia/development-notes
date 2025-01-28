@@ -1,5 +1,9 @@
 # Model inference
 
+## GitHub model-serving topic
+
+https://github.com/topics/model-serving
+
 ## Awesome-LLM-Inference
 
 https://github.com/DefTruth/Awesome-LLM-Inference
@@ -7,6 +11,10 @@ https://github.com/DefTruth/Awesome-LLM-Inference
 ## BentoML
 
 https://github.com/bentoml/BentoML
+
+## Deep-Learning-in-Production
+
+https://github.com/ahkarami/Deep-Learning-in-Production
 
 ## KServe
 
