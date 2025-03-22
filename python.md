@@ -37,3 +37,13 @@ Others:
 - https://github.com/zackees/template-docker-fastapi-site
 - https://www.reddit.com/r/FastAPI/comments/1dsula2/a_good_fastapi_template/
 - https://www.reddit.com/r/Python/comments/1hmbg24/modern_minimalistic_and_scalable_python_fastapi/
+
+## Task queues and workers
+
+- [Task Queues](https://www.fullstackpython.com/task-queues.html)
+
+### Celery
+
+- [Celery - Full Stack Python](https://www.fullstackpython.com/celery.html)
+- [3 Gotchas For Celery](https://wiredcraft.com/blog/3-gotchas-for-celery/)
+
