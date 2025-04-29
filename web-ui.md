@@ -1,5 +1,10 @@
 # Web UI
 
+## UI components
+
+- [shadcn](https://ui.shadcn.com/): A set of beautifully-designed, accessible components.
+- [shadcnblocks](https://www.shadcnblocks.com/): Block set for Shadcn UI & Tailwind.
+
 ## Graph component
 
 [React Flow Builds Interactive Node-Based Graphs]( https://javascript.plainenglish.io/react-flow-builds-interactive-node-based-graphs-8d02abf7512a)
@@ -45,3 +50,8 @@ Building on top of the Web Components standards, Lit adds just what you need to 
 https://alpinejs.dev/
 
 Alpine is a rugged, minimal tool for composing behavior directly in your markup. Think of it like jQuery for the modern web.
+
+## Icon libraries
+
+- [lucide.dev](https://lucide.dev/): Beautiful & consistent icons made by the community.
+- [svgrepo](https://www.svgrepo.com/): 500.000+ Open-licensed SVG Vector and Icons.
