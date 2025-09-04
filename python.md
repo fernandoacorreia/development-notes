@@ -88,3 +88,7 @@ Others:
 ## Notebooks
 
 - https://marimo.io: marimo is an open-source reactive notebook for Python — reproducible, Git-friendly, AI-native, SQL built-in, executable as a script, shareable as an app.
+
+## Observability
+
+- [Pydantic Logfire](https://pydantic.dev/logfire)
