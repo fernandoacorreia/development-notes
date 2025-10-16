@@ -32,3 +32,10 @@ Developer Tips:
 - Use LangGraph for Structure: Build complex, state-aware workflows with step-by-step execution.
 - Debug with LangSmith: Track agent decisions, prompt chains, and tool usage in real-time.
 - Optimize with Feedback Loops: Continuously improve agent reasoning using user interaction data.
+
+## AgentKit
+
+A complete set of tools for developers and enterprises to build, deploy, and optimize agents.
+
+- https://openai.com/index/introducing-agentkit/
+
