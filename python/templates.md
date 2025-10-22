@@ -6,3 +6,12 @@ A cross-platform command-line utility that creates projects from cookiecutters (
 
 - https://github.com/cookiecutter/cookiecutter
 - https://cookiecutter.readthedocs.io/en/stable/README.html
+
+## Python project templates
+
+### cookiecutter-uv
+
+A modern cookiecutter template for Python projects that use uv for dependency management.
+
+- https://github.com/fpgmaas/cookiecutter-uv
+- https://fpgmaas.github.io/cookiecutter-uv/
