@@ -7,6 +7,7 @@ Linting must take into account all file types, and it must catch common AI agent
 - Check that dependencies are properly pinned in pyproject.toml
 - Check that uv.lock is synchronized (uv lock --locked)
 - Reject TODO in comments
+- Reject large files
 - Reject line numbers in comments
 - Run custom, project-specific checks
 - Run pre-commit hooks
