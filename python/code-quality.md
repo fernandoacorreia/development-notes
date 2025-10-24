@@ -1,5 +1,20 @@
 # Python Code Quality
 
+## Comprehensive linting
+
+Linting must take into account all file types, and it must catch common AI agent mistakes.
+
+- Check that dependencies are properly pinned in pyproject.toml
+- Check that uv.lock is synchronized (uv lock --locked)
+- Reject TODO in comments
+- Reject line numbers in comments
+- Run custom, project-specific checks
+- Run pre-commit hooks
+- Run source code auto-formatter (python, yaml, json, typescript, etc.)
+- Run static analyzers / type checkers
+- Sort *.toml files
+- After everything ran: Check for untracked files (CI only)
+
 ## Black
 
 The uncompromising Python code formatter.
