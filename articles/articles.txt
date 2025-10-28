@@ -1,0 +1,66 @@
+opcode - The Elegant Desktop Companion for Claude Code
+https://opcode.sh/
+
+PrimeIntellect-ai/verifiers: Environments for LLM Reinforcement Learning
+https://github.com/PrimeIntellect-ai/verifiers
+
+Programming as Theory Building
+https://gwern.net/doc/cs/algorithm/1985-naur.pdf
+
+‘World Models,’ an Old Idea in AI, Mount a Comeback | Quanta Magazine
+https://www.quantamagazine.org/world-models-an-old-idea-in-ai-mount-a-comeback-20250902/
+
+Getting started | Hydra
+https://hydra.cc/docs/intro/
+
+DeepLearning.AI - Learning Platform
+https://learn.deeplearning.ai/
+
+Strands Agents
+https://strandsagents.com/latest/
+
+strands-agents/sdk-python: A model-driven approach to building AI agents in just a few lines of code.
+https://github.com/strands-agents/sdk-python
+
+Introducing Strands Agents, an Open Source AI Agents SDK | AWS Open Source Blog
+https://aws.amazon.com/blogs/opensource/introducing-strands-agents-an-open-source-ai-agents-sdk/
+
+PocketBase - Open Source backend in 1 file
+https://pocketbase.io/
+
+Claude Skills are awesome, maybe a bigger deal than MCP
+https://simonwillison.net/2025/Oct/16/claude-skills/
+
+Equipping agents for the real world with Agent Skills \ Anthropic
+https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills
+
+anthropics/skills: Public repository for Skills
+https://github.com/anthropics/skills
+
+Home - Delta Lake Documentation
+https://delta-io.github.io/delta-rs/
+
+Getting Started with Delta Lake | Delta Lake
+https://delta.io/learn/getting-started/
+
+meta-pytorch/OpenEnv: An interface library for RL post training with environments.
+https://github.com/meta-pytorch/OpenEnv
+
+Claude Code Best Practices \ Anthropic
+https://www.anthropic.com/engineering/claude-code-best-practices
+
+You No Longer Need Two Separate Systems for Batch Processing and Streaming | by Anna Geller | Medium
+https://annageller.medium.com/you-no-longer-need-two-separate-systems-for-batch-processing-and-streaming-88b3b9c1a203
+
+Optimizing REST API Performance. The content of this blog is written… | by Jesum | Medium
+https://medium.com/@jesum/optimizing-rest-api-performance-2f554d5bfef
+
+Quick-Start to Integrating OpenTelemetry with FastAPI (Part 1) | by Jesum | humanmanaged | Medium
+https://medium.com/humanmanaged/quick-start-to-integrating-opentelemetry-with-fastapi-part-1-2be4fec874bc
+
+Quick-Start to Integrating OpenTelemetry with FastAPI (Part 2) | by Jesum | humanmanaged | Medium
+https://medium.com/humanmanaged/quick-start-to-integrating-opentelemetry-with-fastapi-part-2-8901f685b472
+
+Scripts I wrote that I use all the time
+https://evanhahn.com/scripts-i-wrote-that-i-use-all-the-time/
+
