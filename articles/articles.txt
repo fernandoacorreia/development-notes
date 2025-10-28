@@ -64,3 +64,7 @@ https://medium.com/humanmanaged/quick-start-to-integrating-opentelemetry-with-fa
 Scripts I wrote that I use all the time
 https://evanhahn.com/scripts-i-wrote-that-i-use-all-the-time/
 
+Agentic Design Patterns: A Hands-On Guide to Building Intelligent Systems
+https://www.amazon.com/Agentic-Design-Patterns-Hands-Intelligent/dp/3032014018
+https://www.linkedin.com/posts/searchguy_agenticai-designpatterns-ai-activity-7351622833136906241-GPiR/
+
