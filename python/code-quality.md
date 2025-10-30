@@ -16,6 +16,14 @@ Linting must take into account all file types, and it must catch common AI agent
 - Sort *.toml files
 - After everything ran: Check for untracked files (CI only)
 
+## basedpyright
+
+Python linter. Mypy alternative. pyright fork with various type checking improvements, improved vscode support and
+pylance features built into the language server.
+
+- https://github.com/DetachHead/basedpyright
+- https://docs.basedpyright.com/latest/
+
 ## Black
 
 The uncompromising Python code formatter.
@@ -52,6 +60,14 @@ Hints:
 A framework for managing and maintaining multi-language pre-commit hooks.
 
 - https://pre-commit.com/
+
+## prek
+
+Improved drop-in replacement for pre-commit. Supports monorepos.
+
+- https://github.com/j178/prek
+- https://prek.j178.dev/
+- https://prek.j178.dev/workspace/
 
 ## ruff
 
