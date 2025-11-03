@@ -56,6 +56,8 @@ Others:
 
 - [Celery - Full Stack Python](https://www.fullstackpython.com/celery.html)
 - [3 Gotchas For Celery](https://wiredcraft.com/blog/3-gotchas-for-celery/)
+- https://github.com/sibson/redbeat -- RedBeat is a Celery Beat Scheduler that stores the scheduled tasks and runtime metadata in Redis.
+- https://python.plainenglish.io/using-celery-redbeat-for-basic-dynamic-scheduling-of-periodic-tasks-5e131d3d30a0
 
 ## Terminal UI libraries
 
