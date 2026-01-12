@@ -7,4 +7,4 @@ Cerbos is the open core, language-agnostic, scalable authorization solution that
 - https://github.com/cerbos/cerbos
 - https://www.cerbos.dev/
 - https://www.cerbos.dev/product-cerbos-pdp
-
+- https://docs.cerbos.dev/cerbos/latest/index.html
