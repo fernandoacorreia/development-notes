@@ -1,5 +1,11 @@
 # Python Streaming
 
+## Apache Flink
+
+https://flink.apache.org/
+
+Apache Flink is a framework and distributed processing engine for stateful computations over unbounded and bounded data streams. Flink has been designed to run in all common cluster environments, perform computations at in-memory speed and at any scale.
+
 ## Faust
 
 Faust is a stream processing library, porting the ideas from Kafka Streams to Python.
