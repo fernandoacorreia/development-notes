@@ -8,3 +8,8 @@ Inspect all internal and external cluster communications, API transactions, and 
 
 https://www.kubeshark.co/
 
+## Envoy Gateway
+
+- https://gateway.envoyproxy.io/
+- https://github.com/envoyproxy/gateway
+- https://kubernetes.io/docs/concepts/services-networking/gateway/
