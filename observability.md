@@ -26,3 +26,22 @@ Collect, transform, and route all your logs and metrics with one simple tool.
 
 - https://vector.dev/
 
+## VictoriaLogs
+
+Simple & Reliable Logs Solution That Scales.
+
+- https://victoriametrics.com/products/victorialogs/
+
+## VictoriaMetrics
+
+Fast, cost-effective monitoring solution and time series database.
+High-Performance, Open Source Time Series Database & Monitoring Solution.
+
+- https://github.com/VictoriaMetrics/VictoriaMetrics
+- https://victoriametrics.com/
+
+## VictoriaTraces
+
+Open-source, user-friendly database designed for storing and querying distributed tracing data.
+
+- https://docs.victoriametrics.com/victoriatraces/
