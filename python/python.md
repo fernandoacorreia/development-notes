@@ -59,6 +59,13 @@ Others:
 - https://github.com/sibson/redbeat -- RedBeat is a Celery Beat Scheduler that stores the scheduled tasks and runtime metadata in Redis.
 - https://python.plainenglish.io/using-celery-redbeat-for-basic-dynamic-scheduling-of-periodic-tasks-5e131d3d30a0
 
+### BullMQ
+
+Message Queue and Batch processing for NodeJS, Python, Elixir and PHP based on Redis.
+
+- https://bullmq.io/
+- https://github.com/taskforcesh/bullmq
+
 ## Terminal UI libraries
 
 - https://github.com/astanin/python-tabulate: Pretty-print tabular data in Python
