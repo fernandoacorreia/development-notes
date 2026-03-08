@@ -23,3 +23,10 @@ Multi-project worktree manager with Claude support.
 
 - https://medium.com/@dtunai/mastering-git-worktrees-with-claude-code-for-parallel-development-workflow-41dc91e645fe
 - https://code.claude.com/docs/en/common-workflows#run-parallel-claude-code-sessions-with-git-worktrees
+
+## Worktrunk
+
+Git worktree management for parallel AI agent workflows.
+
+- https://worktrunk.dev/
+- https://github.com/max-sixty/worktrunk

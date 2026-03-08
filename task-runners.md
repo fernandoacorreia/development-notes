@@ -16,6 +16,11 @@ just is a handy way to save and run project-specific commands.
 
 - https://github.com/casey/just
 
+## Mise
+
+- https://mise.jdx.dev/
+- https://mise.jdx.dev/tasks/
+
 ## Poe the Poet
 
 Poe the Poet is a batteries included task runner that works well with poetry or with uv.
