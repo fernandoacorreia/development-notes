@@ -86,6 +86,12 @@ Go concurrency with channel transformations: a toolkit for streaming, batching, 
 - [groupcache](https://github.com/golang/groupcache?tab=readme-ov-file#loading-process) - memcached replacement.
 - [singleflight](https://pkg.go.dev/golang.org/x/sync/singleflight) - duplicate function call suppression mechanism.
 
+### Caching libraries and frameworks
+- https://github.com/eko/gocache
+- https://github.com/go-redis/cache
+- https://github.com/mgtv-tech/jetcache-go
+- https://github.com/maypok86/otter
+
 ## Deployment
 
 ### Deploying Go programs in containers
