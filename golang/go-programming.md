@@ -92,6 +92,57 @@ Go concurrency with channel transformations: a toolkit for streaming, batching, 
 - https://github.com/mgtv-tech/jetcache-go
 - https://github.com/maypok86/otter
 
+## Logging
+
+Structured logging libraries, roughly in order of "default choice" to "reach for when you need it":
+
+### log/slog
+
+https://pkg.go.dev/log/slog
+
+Standard library structured logging (Go 1.21+). No dependency needed, pluggable handlers (JSON/text), and most third-party libraries now offer slog adapters or implement `slog.Handler` directly. The Go team's own position ([blog post](https://go.dev/blog/slog)) is that slog isn't meant to beat zap/zerolog on speed — it's meant to be the common interoperable foundation. In practice it has become the default recommendation for new code, since the ecosystem gap (colorized dev output, context propagation, routing) has been filled by adapters:
+
+- [tint](https://github.com/lmittmann/tint) - colorized handler for readable dev console output.
+- [slog-multi](https://github.com/samber/slog-multi) - pipeline/fanout/routing middleware for handlers, part of samber's broader family of `slog-*` adapters (slog-zap, slog-echo, etc.)
+- [slog-context](https://github.com/veqryn/slog-context) - context-based logger/attribute propagation (e.g. OTel trace IDs), a common gap vs zap/zerolog's context helpers.
+- [devslog](https://github.com/golang-cz/devslog) - another dev-mode pretty handler.
+
+### zerolog
+
+https://github.com/rs/zerolog
+
+Zero-allocation JSON logger with a fluent/chainable API. Actively maintained, benchmarks as the fastest of the mainstream options. Used by Adobe, Cisco, Cloudflare, MongoDB, Netflix, Red Hat, and others ([who uses zerolog](https://github.com/rs/zerolog/wiki/Who-uses-zerolog)).
+
+### Uber zap
+
+https://github.com/uber-go/zap
+
+Near-zero-allocation structured/leveled logging, widely used in high-throughput services. API is more verbose (`zap.String(...)` field builders) but ships a friendlier `SugaredLogger`. API is stable/finalized (1.x), still actively releasing.
+
+### phuslu/log
+
+https://github.com/phuslu/log
+
+Newer entrant marketed as the fastest structured logger, with benchmarks against slog/zap/zerolog in its README. Worth watching but far smaller adoption than zap/zerolog so far.
+
+### charmbracelet/log
+
+https://github.com/charmbracelet/log
+
+Minimal, colorful logger from the Charm team (Bubble Tea/Lip Gloss), aimed at CLI/dev-friendly output rather than high-throughput backend services. Ships a slog handler and stdlib `log` adapter.
+
+### logrus
+
+https://github.com/sirupsen/logrus
+
+One of the oldest and most widely adopted Go loggers (structured + pluggable hooks/formatters), but its README explicitly states it's in maintenance mode: "The project focuses on security, bug fixes, and performance improvements. New features are not planned" — and points users to zerolog/zap/apex for new projects.
+
+### go-kit/log
+
+https://github.com/go-kit/log
+
+Minimal structured logging interface, common in go-kit-style microservices. More of a logging interface than a full-featured logger; effectively dormant (no meaningful activity since mid-2024) outside the go-kit ecosystem.
+
 ## Deployment
 
 ### Deploying Go programs in containers
